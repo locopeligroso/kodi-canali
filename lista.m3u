@@ -1,45 +1,49 @@
 #EXTM3U
-#EXTINF:-1 group-title="Canali Italiani",Rai 1
+#EXTINF:-1 tvg-id="Rai1.it" group-title="Canali Italiani",Rai 1
 #EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=rainet/4.0.5
-#EXTINF:-1 group-title="Canali Italiani",Rai 2
+#EXTINF:-1 tvg-id="Rai2.it" group-title="Canali Italiani",Rai 2
 https://raidue3-live.akamaized.net/hls/live/2017983/raidue3/raidue3/playlist.m3u8
-#EXTINF:-1 group-title="Canali Italiani",Rai 3 Lombardia
+#EXTINF:-1 tvg-id="Rai.3.HD..103.it" group-title="Canali Italiani",Rai 3 Lombardia
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=72916&output=16
-#EXTINF:-1 group-title="Canali Italiani",Rete 4
+#EXTINF:-1 tvg-id="Rete.4.it" group-title="Canali Italiani",Rete 4
 https://live02-seg.msf.cdn.mediaset.net/live/ch-r4/r4-clr.isml/index.m3u8
-#EXTINF:-1 group-title="Canali Italiani",Canale 5
+#EXTINF:-1 tvg-id="Canale.5.it" group-title="Canali Italiani",Canale 5
 https://live02-seg.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8
-#EXTINF:-1 group-title="Canali Italiani",Italia 1
+#EXTINF:-1 tvg-id="Italia.1.it" group-title="Canali Italiani",Italia 1
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://live02-seg.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/index.m3u8
-#EXTINF:-1 group-title="Canali Italiani",La7
+#EXTINF:-1 tvg-id="LA7.HD.it" group-title="Canali Italiani",La7
 https://jmp2.uk/stvp-ITBD1500002NL
-#EXTINF:-1 group-title="Canali Italiani",TV8
+#EXTINF:-1 tvg-id="TV8.HD.it" group-title="Canali Italiani",TV8
 https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556
-#EXTINF:-1 group-title="Canali Italiani",Nove
+#EXTINF:-1 tvg-id="Nove.it" group-title="Canali Italiani",Nove
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/NOVE/CMAF/index.m3u8
-#EXTINF:-1 group-title="Canali Italiani",20 Mediaset
+#EXTINF:-1 tvg-id="20.it" group-title="Canali Italiani",20 Mediaset
 https://live02-seg.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/index.m3u8
-#EXTINF:-1 group-title="Canali Italiani",Rai 4
+#EXTINF:-1 tvg-id="Rai4.it" group-title="Canali Italiani",Rai 4
 #EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966&output=7&forceUserAgent=rainet/4.0.5
-#EXTINF:-1 group-title="Canali Italiani",Rai 5
+#EXTINF:-1 tvg-id="Rai5.it" group-title="Canali Italiani",Rai 5
 #EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=7&forceUserAgent=rainet/4.0.5
-#EXTINF:-1 group-title="Canali Italiani",Rai Movie
+#EXTINF:-1 tvg-id="RaiMovie.it" group-title="Canali Italiani",Rai Movie
 #EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=7&forceUserAgent=rainet/4.0.5
-#EXTINF:-1 group-title="Canali Italiani",Rai News 24
+#EXTINF:-1 tvg-id="RaiNews24.it" group-title="Canali Italiani",Rai News 24
 #EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=7&forceUserAgent=rainet/4.0.5
-#EXTINF:-1 group-title="Canali Italiani",Cielo
+#EXTINF:-1 tvg-id="cielo.it" group-title="Canali Italiani",Cielo
 https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11219/cieloweb/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556
-#EXTINF:-1 group-title="Canali Italiani",Focus
+#EXTINF:-1 tvg-id="Focus.it" group-title="Canali Italiani",Focus
 https://live02-seg.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/index.m3u8
-#EXTINF:-1 group-title="Canali Italiani",Top Crime
+#EXTINF:-1 tvg-id="Top.Crime.it" group-title="Canali Italiani",Top Crime
 https://live02-seg.msf.cdn.mediaset.net/live/ch-lt/lt-clr.isml/index.m3u8
 #EXTINF:-1 group-title="Canali Italiani",Espansione TV
 https://srvx1.selftv.video/espansione/smil:live.smil/playlist.m3u8
@@ -285,7 +289,7 @@ https://distribution.sportitalialive.it/sportitalia/sisolocalcio_abr/playlist.m3
 https://stream1.aswifi.it/stereo5/live/index.m3u8
 #EXTINF:-1 group-title="Canali Italiani",Super TV (720p)
 http://wms.shared.streamshow.it/supertv/mp4:supertv/playlist.m3u8
-#EXTINF:-1 group-title="Canali Italiani",Super!
+#EXTINF:-1 tvg-id="Super!.it" group-title="Canali Italiani",Super!
 https://495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_hbbtv/playlist.m3u8
 #EXTINF:-1 group-title="Canali Italiani",SuperSix Lombardia (720p)
 https://5db313b643fd8.streamlock.net/SUPERSIXLombardia/SUPERSIXLombardia/playlist.m3u8
@@ -367,26 +371,26 @@ https://umbriatv.stream.rubidia.it:8083/live/umbriatv/playlist.m3u8
 https://stream6-rai-it.akamaized.net/live/uninettuno/playlist.m3u8
 #EXTINF:-1 group-title="Canali Italiani",Visual Radio (576p) [Not 24/7]
 http://wms.shared.streamshow.it:1935/visualradio/visualradio/live.m3u8
-#EXTINF:-1 group-title="Canali Italiani",Cine34
+#EXTINF:-1 tvg-id="Cine34.it" group-title="Canali Italiani",Cine34
 https://live02-seg.msf.cdn.mediaset.net/live/ch-b6/b6-clr.isml/index.m3u8
-#EXTINF:-1 group-title="Canali Italiani",Iris
+#EXTINF:-1 tvg-id="Iris.it" group-title="Canali Italiani",Iris
 https://live02-seg.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/index.m3u8
-#EXTINF:-1 group-title="Canali Italiani",Rai Gulp
+#EXTINF:-1 tvg-id="RaiGulp.it" group-title="Canali Italiani",Rai Gulp
 #EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&output=7&forceUserAgent=rainet/4.0.5
-#EXTINF:-1 group-title="Canali Italiani",Rai Premium
+#EXTINF:-1 tvg-id="RaiPremium.it" group-title="Canali Italiani",Rai Premium
 #EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=7&forceUserAgent=rainet/4.0.5
-#EXTINF:-1 group-title="Canali Italiani",Rai Sport
+#EXTINF:-1 tvg-id="RaiSport.it" group-title="Canali Italiani",Rai Sport
 #EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=7&forceUserAgent=rainet/4.0.5
-#EXTINF:-1 group-title="Canali Italiani",Rai Storia
+#EXTINF:-1 tvg-id="RaiStoria.it" group-title="Canali Italiani",Rai Storia
 #EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990&output=7&forceUserAgent=rainet/4.0.5
-#EXTINF:-1 group-title="Canali Italiani",Rai YoYo
+#EXTINF:-1 tvg-id="RaiYoyo.it" group-title="Canali Italiani",Rai YoYo
 #EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=rainet/4.0.5
-#EXTINF:-1 group-title="Canali Italiani",Sportitalia
+#EXTINF:-1 tvg-id="Sportitalia.it" group-title="Canali Italiani",Sportitalia
 https://distribution.sportitalialive.it/sportitalia/sihd_abr/playlist.m3u8
 #EXTINF:-1 group-title="Canali Italiani",Sportitalia 24
 https://distribution.sportitalialive.it/sportitalia/silive24_abr/playlist.m3u8
